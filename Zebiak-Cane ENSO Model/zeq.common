@@ -1,0 +1,17 @@
+       COMMON /VALS/HB(100,30),UB(100,30),V(100,29),           
+     A  XXT(101,31),YYT(101,31),XX(30,100),YY(30,100),
+     B	phik(0:31,100),Cxm(0:31,30),Cym(0:31,30),
+     C 	q0(30),qm(31,30),X(899),F(899),Fk(30),Fm(31,30),
+     D  A(899),B(899),C(899),BigX(1439)
+                               
+       COMMON /ARRAYS/Y(100),HEADER,
+     A  YSOUTH(40),YNORTH(40),XWEST(40)                                
+
+       CHARACTER*1 HEADER(80)
+       COMMON /SCALS/DT,DX,DY,TPLMIN,HK,NX,NY,MODES,               
+     A  NDIM,NXP,NYP,PI,SQRT2,TD,TZERO,XE,YN,YS,OMEGA,               
+     B  ENDT,RALPHA,IALPHA,ISTART,STRESS0,HEQUIV,                 
+     C  XWD,XED,YSD,YND,CWAVE,ELEQ,TEQ,TEQM,TENDD,
+     D  DTD,DXD,DYD,TDECAY,WSCALE,RFRIC,NT,NTIMES,
+     E  NPRINT,NSEG,NTAPE,NREWND,NSTART,NATM,NATMR
+
